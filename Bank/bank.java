@@ -119,8 +119,8 @@ public class bank {
                     JOptionPane.showMessageDialog(frame,
                             "Error: Unknown host: " + ex.getMessage(),
                             "Error", JOptionPane.ERROR_MESSAGE);
-                    accountWindow();
-                    accountTransaction();
+                    // accountWindow();
+                    // accountTransaction();
                 } catch (IOException ex) {
                     JOptionPane.showMessageDialog(frame,
                             "Error connection: " + ex.getMessage(),
